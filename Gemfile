@@ -56,3 +56,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #adding Biitstrap(from Twitter)
 gem 'bootstrap-sass'
 gem 'jquery-rails'
+
+#Intergrating ReactJs
+gem 'webpacker'
+gem 'webpacker-react', "~> 0.3.2"
