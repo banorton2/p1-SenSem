@@ -1,12 +1,28 @@
-<h1>Fils in the current directory</h1>
-<p>
-  The files in the current directory are:
-</p>
-<p>
-  File names are:
-<ul>
-<% @files.each do |file| %>
-  <li><%= file %></li>
-<% end %>
-</ul>
-</p>
+<% provide(:title, "File Directory") %>
+
+<div class="panel panel-default">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            It is now <%= @time %>
+        </h3>
+    </div>
+
+    <div class="panel-body">
+        <p>
+            List of File Names
+            <ul>
+            <% @files.each do |file| %>
+            <li><%= file %></li>
+            <% end %>
+            </ul>
+        </p>
+        <p>
+            Time to say <%=link_to "Hello", say_hello_path %>!
+        </p>
+        <p>
+            Time to say <%=link_to "Goodbye", say_goodbye_path %>!
+        </p>
+    </div>
+
+</div>
