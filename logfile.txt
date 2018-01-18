@@ -1,0 +1,35 @@
+commit 588a0d5677d4902d7bc6973c3422b2951c48b4d6
+Author: Bethany Norton <annielulu93@yahoo.com>
+Date:   Thu Jan 18 17:55:31 2018 +0000
+
+    Integrate ReactJS,Foreman issues
+
+commit 95bd66efde1a6320234d707756cfeb18cac2b10f
+Author: Bethany Norton <annielulu93@yahoo.com>
+Date:   Thu Jan 18 17:17:45 2018 +0000
+
+    Used Bootstrap.
+
+commit 0323e086cd85665d5e86cba7b5c0528a9c705988
+Author: Bethany Norton <annielulu93@yahoo.com>
+Date:   Thu Jan 18 16:35:34 2018 +0000
+
+    Added Bootstraps in gem file
+
+commit 8067e4a3ba8cc37304bb2cf2c14d830689a311bd
+Author: Bethany Norton <annielulu93@yahoo.com>
+Date:   Thu Jan 18 16:26:40 2018 +0000
+
+    Playtime: added filenames
+
+commit 95da210d46231714d662e2494bc690b6ddeec9fe
+Author: Bethany Norton <annielulu93@yahoo.com>
+Date:   Thu Jan 18 15:44:18 2018 +0000
+
+    Up until Playtime.
+
+commit bed97b98fd3b2b58dc74c7e859dd56a695818285
+Author: Bethany Norton <annielulu93@yahoo.com>
+Date:   Thu Jan 18 05:06:08 2018 +0000
+
+    Just created a Rails project

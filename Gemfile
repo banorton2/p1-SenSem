@@ -30,6 +30,14 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+#adding Biitstrap(from Twitter)
+gem 'bootstrap-sass'
+gem 'jquery-rails'
+
+#Intergrating ReactJs
+gem 'webpacker'
+gem 'webpacker-react', "~> 0.3.2"
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -52,11 +60,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-#adding Biitstrap(from Twitter)
-gem 'bootstrap-sass'
-gem 'jquery-rails'
-
-#Intergrating ReactJs
-gem 'webpacker'
-gem 'webpacker-react', "~> 0.3.2"
