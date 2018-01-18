@@ -1,14 +1,13 @@
 class SayController < ApplicationController
+  before_action :time_now
+  
   def hello
-    time_now
   end
 
   def goodbye
-    time_now
   end
   
   def filenames
-    time_now
     @files = Dir.glob("*").sort
     return @files
   end
