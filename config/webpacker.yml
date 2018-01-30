@@ -38,7 +38,7 @@ development:
     https: false
     host: 0.0.0.0. # <== change
     port: 3035
-    public: 0.0.0.0:3035 # <== change
+    public: l0.0.0.0:3035 # <== change
     hmr: false
     # Inline should be set to true if using HMR
     inline: false    # <== change
