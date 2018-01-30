@@ -1,5 +1,6 @@
 import React from 'react';
 import FileNames from 'components/FileNames'
+import FileSearchForm from 'components/FileSearchForm'
 
 export default class FileApp extends React.Component {
 
@@ -9,35 +10,22 @@ export default class FileApp extends React.Component {
         this.setState({ files: this.props.files });
     };
 
+    handleSearch = (files) => {
+        this.setState({ files: files });
+    };
+
     render = () => {
         return(
             <div>
+                <div className="row">
+                    <div className="col-md-4">
+                        <FileSearchForm handleSearch={this.handleSearch} />
+                    </div>
+                </div>
                 <ul>
-                    <FileNames files={this.state.files} />
+                     <FileNames files={this.state.files} />
                 </ul>
             </div>
         );
     };
-}   
-FileNames.jsx
-
-import React from 'react';
-import FileName from 'components/FileName'
-
-export default class FileNames extends React.Component {
-    render = () => {
-        var files = [];
-        this.props.files.forEach(
-            function(f,index){
-                files.push(<FileName  file={f}
-                                    key ={'file_'+index} />);
-            }
-        );
-
-        return(
-            <ul>
-                {files}
-            </ul>
-        );
-    };
-}
+} 
