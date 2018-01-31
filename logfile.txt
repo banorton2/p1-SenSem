@@ -1,3 +1,45 @@
+commit 1c5936fe1f8c44e2f5c51a8fa2d89b5b3e3ccc30
+Author: Bethany Norton <annielulu93@yahoo.com>
+Date:   Tue Jan 30 17:56:59 2018 +0000
+
+    Heroku gems installed
+
+commit 813ddeee4d04266c84e835a2874139ec08c81f04
+Author: Bethany Norton <annielulu93@yahoo.com>
+Date:   Tue Jan 30 17:52:20 2018 +0000
+
+    File searching added
+
+commit 12eafd5be71e32ee6e5346cb2a612dda238b0b72
+Author: Bethany Norton <annielulu93@yahoo.com>
+Date:   Tue Jan 30 16:23:06 2018 +0000
+
+    React isn't working on browser.
+
+commit 358bb2e5efa11251e1fed1ddd458ccbb7c6e4f2d
+Author: Bethany Norton <annielulu93@yahoo.com>
+Date:   Tue Jan 30 16:05:32 2018 +0000
+
+    had to run foreman start --trace
+
+commit 425fe33ffdf3b79989437e90c55e4a9c449b77db
+Author: Bethany Norton <annielulu93@yahoo.com>
+Date:   Thu Jan 18 21:22:44 2018 +0000
+
+    Commented out issue code.
+
+commit c97c18febc561f13eb364abb9bc682f690222c35
+Author: Bethany Norton <annielulu93@yahoo.com>
+Date:   Thu Jan 18 21:15:38 2018 +0000
+
+    Fixed error in T3 with time_now
+
+commit cc7b4f1b9b9d7ca227cf1849592897aac6fe205b
+Author: Bethany Norton <annielulu93@yahoo.com>
+Date:   Thu Jan 18 20:53:05 2018 +0000
+
+    Task 4 still not working
+
 commit 588a0d5677d4902d7bc6973c3422b2951c48b4d6
 Author: Bethany Norton <annielulu93@yahoo.com>
 Date:   Thu Jan 18 17:55:31 2018 +0000
